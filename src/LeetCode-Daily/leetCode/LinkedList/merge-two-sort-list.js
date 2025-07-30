@@ -17,7 +17,7 @@ function mergeTwoLists(list1, list2){
             temp.next = list1;
             list1 = list1.next;
         }else{
-            temp.next - list2;
+            temp.next = list2;
             list2 = list2.next;
         }
         temp = temp.next;
